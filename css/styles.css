@@ -34,7 +34,7 @@ ul{
 /*-------------------------------------------------Header-------------------------------------------------*/
 
 .header{
-    border: 1px solid #ECECEC;
+    border-bottom: 1px solid #ECECEC;
 }
 
 .header-logo{
@@ -69,6 +69,7 @@ ul{
 
 .tel{
     color: #757575;
+
 }
 
 
@@ -93,6 +94,8 @@ ul{
     display: flex;
     gap:50px;
 }
+
+
 
 
 
@@ -320,6 +323,7 @@ address{
     min-width: 73px;
     border-color: transparent;
     border-radius: 4px;
+    padding: 6px 22px;
     }
 
 .menu-button:hover{
@@ -361,8 +365,31 @@ address{
     margin-bottom: 30px ;
 }
 
-.portfolio-item{
-    border: 1px solid #EEEEEE;
+.border{
+    border-bottom: 1px solid #EEEEEE;
+    border-right: 1px solid #EEEEEE;
+    border-left: 1px solid #EEEEEE;
 }
+
+.envelop{
+    margin-right: 10px;
+    text-align: center;
+}
+
+.vector{
+    margin-right: 10px;
+    max-height: 16px;
+}
+
+.communication{
+    display: flex;
+    align-items: center;
+    max-height: 16px;
+}
+
+
+
+
+
 
 
